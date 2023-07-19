@@ -1,0 +1,62 @@
+todo list nest js (BE), next js (FE)
+video tutorial : https://www.youtube.com/watch?v=9jUh0Y2A3X4
+
+link be : https://www.fullstackbook.com/backend/nestjs-todo/
+
+link fe : https://www.fullstackbook.com/frontend/nextjs-todo/
+
+docu: https://nextjs.org/docs/getting-started/installation
+
+npm run dev
+
+1. npx create-next-app@latest
+
+2. todo-app-nextjs --> project name 
+
+√ What is your project named? ... todo-app-nextjs
+√ Would you like to use TypeScript? ... Yes
+√ Would you like to use ESLint? ... Yes
+√ Would you like to use Tailwind CSS? ... Yes
+√ Would you like to use `src/` directory? ... Yes (pages folder disini)
+√ Would you like to use App Router? (recommended) ...  No
+√ Would you like to customize the default import alias? ... No 
+Creating a new Next.js app in C:\Users\Marceline Megan\Desktop\todo-app-nextjs.
+
+Using npm.
+Initializing project with template: app-tw
+
+
+Installing dependencies:
+- react
+- react-dom
+- next
+- typescript
+- @types/react
+- @types/node
+- @types/react-dom
+- tailwindcss
+- postcss
+- autoprefixer
+- eslint
+- eslint-config-next
+
+21:00
+
+3. npm run dev
+
+npm i lodash
+npm i --save-dev @types/lodash
+
+
+ready started server on 0.0.0.0:3000, url: http://localhost:3000
+4. .env sesuai link fe 
+5. index.tsx dalem folder pages sesuai link fe 
+6. bikin folder components
+7. bikin new file layout.tsx, todo-list.tsx, todo.tsx sesuai link fe 
+
+24:00 describing todo-list component
+
+8. bikin new file css di folder styles untuk home.module, layout.module, todo-list.module, todo.module sesuai link fe 
+
+jangan lupa npm run start backend (nestjs) barengan sama npm run dev frontend (nextjs)
+
